@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 60px;
+}
+section h2 {
+  font-size: 2em;
+  color: #007acc;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 10px;
+}
+
+/* About Section */
+#about {
+  font-size: 1.1em;
+  color: #444;
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
+}
+
+/* Contact Section */
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+#contact li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+#contact a {
+  color: #007acc;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Writing Samples Section */
+#samples ul {
+  list-style: none;
+  padding: 0;
+}
+#samples li {
+  margin: 15px 0;
+}
+#samples a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+#samples a:hover {
+  background-color: #005f99;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
